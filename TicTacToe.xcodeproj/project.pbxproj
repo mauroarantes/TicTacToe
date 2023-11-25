@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0665EFBB2B124D3300833A3A /* TTTImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0665EFBA2B124D3300833A3A /* TTTImageView.swift */; };
+		0665EFBD2B124EB700833A3A /* MPCHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0665EFBC2B124EB700833A3A /* MPCHandler.swift */; };
 		067CF9342B12274B0087DDB0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067CF9332B12274B0087DDB0 /* AppDelegate.swift */; };
 		067CF9362B12274B0087DDB0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067CF9352B12274B0087DDB0 /* SceneDelegate.swift */; };
 		067CF9382B12274B0087DDB0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067CF9372B12274B0087DDB0 /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0665EFBA2B124D3300833A3A /* TTTImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTTImageView.swift; sourceTree = "<group>"; };
+		0665EFBC2B124EB700833A3A /* MPCHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MPCHandler.swift; sourceTree = "<group>"; };
 		067CF9302B12274B0087DDB0 /* TicTacToe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TicTacToe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		067CF9332B12274B0087DDB0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		067CF9352B12274B0087DDB0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +67,8 @@
 				067CF93C2B12274C0087DDB0 /* Assets.xcassets */,
 				067CF93E2B12274C0087DDB0 /* LaunchScreen.storyboard */,
 				067CF9412B12274C0087DDB0 /* Info.plist */,
+				0665EFBA2B124D3300833A3A /* TTTImageView.swift */,
+				0665EFBC2B124EB700833A3A /* MPCHandler.swift */,
 			);
 			path = TicTacToe;
 			sourceTree = "<group>";
@@ -140,7 +146,9 @@
 			files = (
 				067CF9382B12274B0087DDB0 /* ViewController.swift in Sources */,
 				067CF9342B12274B0087DDB0 /* AppDelegate.swift in Sources */,
+				0665EFBD2B124EB700833A3A /* MPCHandler.swift in Sources */,
 				067CF9362B12274B0087DDB0 /* SceneDelegate.swift in Sources */,
+				0665EFBB2B124D3300833A3A /* TTTImageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,7 +224,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -270,7 +278,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;

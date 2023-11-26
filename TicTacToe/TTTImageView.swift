@@ -14,12 +14,13 @@ class TTTImageView: UIImageView {
     
     func setPlayer(_player: String) {
         self.player = _player
-        
-        if activated == false, _player == "x" {
-            self.image = UIImage(named: "x")
-        } else {
-            self.image = UIImage(named: "o")
+        DispatchQueue.main.async {
+            if self.activated == false, _player == "x" {
+                self.image = UIImage(named: "x")
+            } else {
+                self.image = UIImage(named: "o")
+            }
+            self.activated = true
         }
-        activated = true
     }
 }
